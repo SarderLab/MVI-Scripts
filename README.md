@@ -84,8 +84,8 @@ Scripts log in with **one** of:
 
 | What | Where it is | Why it's not in Git |
 |---|---|---|
-| PTC model `best_model.h5` | HiPerGator (path in `mvi_pipeline.py`) | Too large for GitHub |
-| Glom/artery model `transunet_multiclass_denseNet_dice_newdata.h5` | HiPerGator (path in `mvi_pipeline.py`) | Too large for GitHub |
+| PTC model `best_model.h5` | HiPerGator (path in `mvi_pipeline.ipynb`) | Too large for GitHub |
+| Glom/artery model `transunet_multiclass_denseNet_dice_newdata.h5` | HiPerGator (path in `mvi_pipeline.ipynb`) | Too large for GitHub |
 | Clinical Excel `MVI_DeID_*.xlsx` | HiPerGator | Clinical data |
 | Slides | Athena | Patient data |
 
