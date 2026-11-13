@@ -4,8 +4,8 @@ Computes **iptcr** for CD34-LCA slides stored on Athena, and draws the result on
 
 | File | What it does |
 |---|---|
-| `mvi_pipeline.py` | The pipeline: download slide → segment → iptcr → save results / upload layers |
-| `validate_iptcr.py` | Checks whether the iptcr is trustworthy (vs. existing scores and Banff ptc / AMR / DSA) |
+| `mvi_pipeline.ipynb` | The pipeline: download slide → segment → iptcr → save results / upload layers |
+| `validate_iptcr.ipynb` | Checks whether the iptcr is trustworthy (vs. existing scores and Banff ptc / AMR / DSA) |
 | `run_mvi.sh` | Runs `mvi_pipeline.py` as a SLURM GPU job on HiPerGator (optional; for long runs) |
 
 ---
