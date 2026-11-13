@@ -9,7 +9,7 @@ def urlAndCredentials(instance):
     cookie=''
     if(instance == 'athena'):
         api_url='https://athena.rc.ufl.edu/api/v1/'
-        api_key='2UUaBlLpJ1InWEbSBHfqghHhLrns3s9vp8QuVmWd'
+        api_key='YOUR-API-KEY'
         dest_dir = os.path.join(script_dir, 'Athena')
         if len(sys.argv) > 2:
             UserOrCollectionIDs = sys.argv[2]
@@ -20,7 +20,7 @@ def urlAndCredentials(instance):
 
     else:
         api_url='https://devathena.rc.ufl.edu/api/v1/'
-        api_key='VB0j3kgKvKrDje1A8jNHXIWpT2dC96wc1gFMtGf8'
+        api_key='YOU-API-KEY'
         #Get cookie from user
         #cookie = sys.argv[2]
         dest_dir = os.path.join(script_dir, 'DevAthena')
