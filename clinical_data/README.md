@@ -1,6 +1,6 @@
 # Clinical Data Check
 
-`clinical_match.py` compares the slides in an Athena folder with the clinical Excel
+`clinical_match.ipynb` compares the slides in an Athena folder with the clinical Excel
 (`MVI_DeID_*.xlsx`) and tells you:
 
 1. **Missing slides:** DeIDs that are in the Excel but have no slide in the folder.
@@ -18,7 +18,7 @@ The DeID is read from the slide name: `JHH_DS_12 CD34LCA.ndpi` → `JHH_DS_12`, 
 
 ## Step 1: Configure
 
-Open `clinical_match.py` and set:
+Open `clinical_match.ipynb` and set:
 
 | Setting | What to put |
 |---|---|
@@ -30,13 +30,8 @@ Open `clinical_match.py` and set:
 
 Log in as described in the [main README](../README.md#3-log-in-to-athena).
 
-## Step 2: Run
 
-```bash
-python clinical_match.py
-```
-
-## Step 3: Output
+## Step 2: Output
 
 Printed on screen and saved as `clinical_check.xlsx`:
 
