@@ -18,10 +18,10 @@ at least one leukocyte. The slides live on the Digital Slide Archive (DSA / Hist
 
 | Folder | Files | Purpose | Status |
 |---|---|---|---|
-| [`[ptc_model_training](https://github.com/SarderLab/MVI-Scripts/tree/3d073e0454750281dc6f8d96a7ebf6b1a3fd4511/ptc_model_training)`](ptc_model_training) | `Dataset_Creation.ipynb`, `PTC_Model_Training.ipynb` | How the PTC segmentation model (`best_model.h5`) was built and trained | Reference / retraining |
-| [`[legacy_notebooks](https://github.com/SarderLab/MVI-Scripts/tree/3d073e0454750281dc6f8d96a7ebf6b1a3fd4511/legacy_notebooks)`](legacy_notebooks) | `WSI_To_XML.ipynb`, `Final_Pipeline.ipynb` | Earlier versions of the slide pipeline | Replaced by `iptcr_pipeline` |
-| [`[iptcr_pipeline](https://github.com/SarderLab/MVI-Scripts/tree/3d073e0454750281dc6f8d96a7ebf6b1a3fd4511/iptcr_pipeline)`](iptcr_pipeline) | `mvi_pipeline.ipynb`, `validate_iptcr.ipynb`, `run_mvi.sh` | Segment glomeruli, arteries, PTCs and leukocytes on Athena slides, compute iptcr, upload layers, validate | **Use this** |
-| [`(https://github.com/SarderLab/MVI-Scripts/tree/3d073e0454750281dc6f8d96a7ebf6b1a3fd4511/clinical_data)`](clinical_data) | `clinical_match.ipynb` | Check which slides have clinical data in the MVI Excel and which data is missing | Use this |
+| [`[ptc_model_training]`](https://github.com/SarderLab/MVI-Scripts/tree/3d073e0454750281dc6f8d96a7ebf6b1a3fd4511/ptc_model_training) | `Dataset_Creation.ipynb`, `PTC_Model_Training.ipynb` | How the PTC segmentation model (`best_model.h5`) was built and trained | Reference / retraining |
+| [`[legacy_notebooks]`](https://github.com/SarderLab/MVI-Scripts/tree/3d073e0454750281dc6f8d96a7ebf6b1a3fd4511/legacy_notebooks) | `WSI_To_XML.ipynb`, `Final_Pipeline.ipynb` | Earlier versions of the slide pipeline | Replaced by `iptcr_pipeline` |
+| [`[iptcr_pipeline]`](https://github.com/SarderLab/MVI-Scripts/tree/3d073e0454750281dc6f8d96a7ebf6b1a3fd4511/iptcr_pipeline) | `mvi_pipeline.ipynb`, `validate_iptcr.ipynb`, `run_mvi.sh` | Segment glomeruli, arteries, PTCs and leukocytes on Athena slides, compute iptcr, upload layers, validate | **Use this** |
+| [`clinical_data`](https://github.com/SarderLab/MVI-Scripts/tree/3d073e0454750281dc6f8d96a7ebf6b1a3fd4511/clinical_data) | `clinical_match.ipynb` | Check which slides have clinical data in the MVI Excel and which data is missing | Use this |
 
 Each folder has its own README with step-by-step instructions.
 
