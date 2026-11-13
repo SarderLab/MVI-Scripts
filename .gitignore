@@ -1,0 +1,33 @@
+# patient / clinical data and results
+*.xlsx
+*.xls
+*.csv
+*.json
+*.png
+*.jpg
+results/
+validation/
+qc/
+tables/
+xml/
+slides/
+logs/
+*.log
+
+# slides and model weights
+*.ndpi
+*.svs
+*.tif
+*.tiff
+*.h5
+*.keras
+*.tfrecord
+
+# credentials
+common.py
+.env
+
+# Python / Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
